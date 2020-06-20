@@ -1,9 +1,113 @@
 {
+  "dishes": [
+    {
+      "id": "0",
+      "name": "Uthappizza",
+      "image": "https://i.ibb.co/7RfymYg/uthappizza.png",
+      "category": "mains",
+      "featured": true,
+      "label": "Hot",
+      "price": "4.99",
+      "description": "A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Imagine all the eatables, living in conFusion!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Zucchipakoda",
+      "image": "https://i.ibb.co/yyrjHCk/zucchipakoda.png",
+      "category": "appetizer",
+      "featured": false,
+      "label": "",
+      "price": "1.99",
+      "description": "Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Imagine all the eatables, living in conFusion!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Eat it, just eat it!",
+          "author": "Michael Jaikishan",
+          "date": "2015-02-13T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Vadonut",
+      "image": "https://i.ibb.co/g3T2vj0/vadonut.png",
+      "category": "appetizer",
+      "featured": false,
+      "label": "New",
+      "price": "1.99",
+      "description": "A quintessential ConFusion experience, is it a vada or is it a donut?",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Imagine all the eatables, living in conFusion!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "ElaiCheese Cake",
+      "image": "https://i.ibb.co/1sx1HyP/elaicheesecake.png",
+      "category": "dessert",
+      "featured": false,
+      "label": "",
+      "price": "2.99",
+      "description": "A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Imagine all the eatables, living in conFusion!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        }
+      ]
+    }
+  ],
   "promotions": [
     {
       "id": "0",
       "name": "Weekend Grand Buffet",
-      "image": "images/buffet.png",
+      "image": "https://i.ibb.co/64Z4Nh5/buffet.png",
       "featured": true,
       "label": "New",
       "price": "19.99",
@@ -14,7 +118,7 @@
     {
       "id": "0",
       "name": "Peter Pan",
-      "image": "images/alberto.png",
+      "image": "https://i.ibb.co/ZX7RwS2/alberto.png",
       "designation": "Chief Epicurious Officer",
       "featured": false,
       "abbr": "CEO",
@@ -23,7 +127,7 @@
     {
       "id": "1",
       "name": "Dhanasekaran Witherspoon",
-      "image": "images/alberto.png",
+      "image": "https://i.ibb.co/ZX7RwS2/alberto.png",
       "designation": "Chief Food Officer",
       "featured": false,
       "abbr": "CFO",
@@ -32,31 +136,13 @@
     {
       "id": "2",
       "name": "Agumbe Tang",
-      "image": "images/alberto.png",
+      "image": "https://i.ibb.co/ZX7RwS2/alberto.png",
       "designation": "Chief Taste Officer",
       "featured": false,
       "abbr": "CTO",
       "description": "Blessed with the most discerning gustatory sense, Agumbe, our CFO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, You click only if you survive my lick."
-    },
-    {
-      "id": "3",
-      "name": "Alberto Somayya",
-      "image": "images/alberto.png",
-      "designation": "Executive Chef",
-      "featured": true,
-      "abbr": "EC",
-      "description": "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
     }
   ],
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "feedback": [
     {
       "firstname": "Md Erfan",
@@ -67,36 +153,6 @@
       "contacttype": "Email",
       "message": "Good Work",
       "id": 1
-    },
-    {
-      "firstname": "Md Erfan",
-      "lastname": "Bhuiyan",
-      "telnum": "5657575",
-      "email": "ere@gf",
-      "agree": true,
-      "contacttype": "Email",
-      "message": "okay",
-      "id": 2
-    },
-    {
-      "firstname": "Md Erfan",
-      "lastname": "Bhuiyan",
-      "telnum": "34343",
-      "email": "ere@gf",
-      "agree": true,
-      "contacttype": "Email",
-      "message": "okay",
-      "id": 3
-    },
-    {
-      "firstname": "Md Erfan",
-      "lastname": "Bhuiyan",
-      "telnum": "5657575",
-      "email": "ere@gmai.com",
-      "agree": true,
-      "contacttype": "Email",
-      "message": "Okay",
-      "id": 4
     }
   ]
 }
